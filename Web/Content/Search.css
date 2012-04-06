@@ -1,0 +1,170 @@
+﻿body
+{
+}
+
+.cbs:hover {background-color:#eefbe5;}
+
+.error
+    {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: small; 
+        font-weight: lighter; 
+        font-style: normal; 
+        color: red;
+    }
+    .header
+    {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: small; 
+        font-weight: normal; 
+        font-style: normal; 
+        color: #4E305F;
+        text-align:left;
+        vertical-align:top;
+    }
+    .gridContentStyle
+    {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: small; 
+        font-weight: normal; 
+        font-style: normal; 
+        color:#4E305F;
+        background: #EEEEED;
+        text-align:left;
+        vertical-align:top;
+    }
+    .gridAlternateContentStyle
+    {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: small; 
+        font-weight: normal; 
+        font-style: normal; 
+        color:#4E305F;
+        background:#D8D7D7;
+        text-align:left;
+        vertical-align:top;
+    }
+    .footer
+    {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: small; 
+        font-weight: normal; 
+        font-style: normal; 
+        color: #FFFFFF;
+        background:#A5A5A4;
+        text-align:right;
+        width:100%;
+    }
+    
+    
+    
+    .loading {
+    position: absolute;
+    display: none;
+    border: 1px solid #5c9ccc;
+    padding: 2px;
+    background-color: #695B72;
+    color: #ffffff;
+    opacity: 0.60;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    z-index: 100000;
+}
+
+
+.loadingLeft {
+    border: 1px solid #5c9ccc;
+    padding: 2px;
+    background-color: #695B72;
+    color: #ffffff;
+    opacity: 0.50;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    top:20px;
+    left:50px;
+}
+
+
+.gradbutton
+{color: #F7F5ED;border:solid 1px #538312; background:#695B72; background:-webkit-gradient(linear, left top, left bottom, from(#695B72), to(#C9C8C9)); background:-moz-linear-gradient(top, #695B72, #C9C8C9); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#695B72', endColorstr='#C9C8C9');}
+.gradbutton a:hover {background: #538018; background: -webkit-gradient(linear, left top, left bottom, from(#FEDABF), to(#436b0c)); background:-moz-linear-gradient(top,  #FEDABF, #436b0c); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEDABF', endColorstr='#436b0c');}
+.gradbutton a:active {color:#F7F5ED; background:-webkit-gradient(linear, left top, left bottom, from(#FEDABF), to(#695B72)); background:-moz-linear-gradient(top,  #FEDABF,  #695B72); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEDABF', endColorstr='#695B72');}
+
+
+.gradbutton {display:inline-block; outline:none; cursor:pointer; text-align:center; text-decoration:none; font:13px/100% Arial, Helvetica, sans-serif; padding:.3em 0.3em .33em; text-shadow:0 1px 1px rgba(0,0,0,.3); -webkit-border-radius:.5em;  -moz-border-radius:.5em; border-radius:.5em; -webkit-box-shadow:0 1px 2px rgba(0,0,0,.2); -moz-box-shadow:0 1px 2px rgba(0,0,0,.2); box-shadow:0 1px 2px rgba(0,0,0,.2);}
+.gradbutton:hover {text-decoration:none;}
+.gradbutton:active {position:relative; top:1px;}
+
+
+
+.ui-autocomplete {
+    background-color: white;
+    width: 300px;
+    border: 1px solid #cfcfcf;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+.editor-field
+{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: small; 
+	color:#695B72;
+}
+
+
+img, div, a, input{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: small; 
+	color:#4E305F;
+}
+
+
+.textBlack{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: small; 
+	color: #4E305F;
+}
+
+.editor-label
+{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: small; 
+	color:#695B72;
+}
+
+.text-main-products
+{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size: x-small; 
+	color:#695B72;
+}
+
+
+.label
+{
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#695B72;
+}
+
+.labelBold
+{
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#695B72;
+	font-weight: bold; 
+}
+
+
+
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 0px;
+border-color: #4E305F;
+}

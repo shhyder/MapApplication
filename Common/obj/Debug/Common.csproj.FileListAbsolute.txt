@@ -1,0 +1,14 @@
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\bin\Debug\Google.Ads.Common.dll
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\bin\Debug\Google.Ads.Common.pdb
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\obj\Debug\Google.Api.Ads.Common.CommonErrorMessages.resources
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\obj\Debug\Google.Ads.Common.dll
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\Common\obj\Debug\Google.Ads.Common.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\bin\Debug\Google.Ads.Common.dll
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\bin\Debug\Google.Ads.Common.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\obj\Debug\Google.Api.Ads.Common.CommonErrorMessages.resources
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\obj\Debug\Google.Ads.Common.dll
+C:\Documents and Settings\Hyder\MapKeywordSearch\Common\obj\Debug\Google.Ads.Common.pdb

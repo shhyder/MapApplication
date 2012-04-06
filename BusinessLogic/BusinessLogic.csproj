@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62B4395A-4B43-4CF7-9E34-3D1542458C11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessLogic</RootNamespace>
+    <AssemblyName>BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.DataReaderDest, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute\Attribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attribute\Attribute_Variant.cs" />
+    <Compile Include="Base.cs" />
+    <Compile Include="BaseNonParameter.cs" />
+    <Compile Include="BaseParameter.cs" />
+    <Compile Include="Customer\Customer.cs" />
+    <Compile Include="Distributor\Distributor.cs" />
+    <Compile Include="IList.cs" />
+    <Compile Include="INonParameterBL.cs" />
+    <Compile Include="IParameterBL.cs" />
+    <Compile Include="Marker\Marker.cs" />
+    <Compile Include="Marker\GoogleSearchCount.cs" />
+    <Compile Include="Marker\twitter.cs" />
+    <Compile Include="Membership\EncDec.cs" />
+    <Compile Include="Membership\PSMembershipProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Membership\PSMembershipUser.cs" />
+    <Compile Include="Parameter\Parameter.cs" />
+    <Compile Include="Product\Product.cs" />
+    <Compile Include="Product_Type\Product_Type.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\Event.cs" />
+    <Compile Include="Search\Search.cs" />
+    <Compile Include="Tracking\Activity.cs" />
+    <Compile Include="Tracking\Tracking.cs" />
+    <Compile Include="Tracking\Visit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdWords\AdWords.csproj">
+      <Project>{50C9CC2A-0664-4CFA-B72D-AEE6C91BD745}</Project>
+      <Name>AdWords %28AdWords\AdWords%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Blocks\Data\Src\Data\Data.csproj">
+      <Project>{D349B6D8-992F-443F-BB57-57E50DD98794}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{277404DB-A439-4450-B3A5-186294CDF245}</Project>
+      <Name>Common %28AdWords\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{01AAEE30-FF7F-430E-8F73-F7F7BEA58D73}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataSet\DataSet.csproj">
+      <Project>{38A17F01-5116-4672-92EC-FC4588E57A17}</Project>
+      <Name>DataSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GlobalVariables\GlobalVariables.csproj">
+      <Project>{E40A3114-02D1-4B75-A8DC-CCFF0AF02F33}</Project>
+      <Name>GlobalVariables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TwitterStreamClient\TwitterStreamClient.csproj">
+      <Project>{27BE0E2A-0419-460F-9134-0B69A0FE3D18}</Project>
+      <Name>TwitterStreamClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

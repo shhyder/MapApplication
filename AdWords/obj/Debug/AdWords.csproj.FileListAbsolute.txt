@@ -1,0 +1,20 @@
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\obj\Debug\Google.Api.Ads.AdWords.AdWordsErrorMessages.resources
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\obj\Debug\AdWords.csproj.GenerateResource.Cache
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\bin\Debug\Google.AdWords.dll.config
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\bin\Debug\Google.AdWords.dll
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\bin\Debug\Google.AdWords.pdb
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\bin\Debug\Google.Ads.Common.dll
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\bin\Debug\Google.Ads.Common.pdb
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\obj\Debug\Google.AdWords.dll
+C:\Documents and Settings\Hyder\My Documents\Downloads\adxbuyer_dotnet_lib_src_v14.2.0(1)\src\AdWords\obj\Debug\Google.AdWords.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\bin\Debug\Google.AdWords.dll.config
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\bin\Debug\Google.AdWords.dll
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\bin\Debug\Google.AdWords.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\bin\Debug\Google.Ads.Common.dll
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\bin\Debug\Google.Ads.Common.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\obj\Debug\Google.Api.Ads.AdWords.AdWordsErrorMessages.resources
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\obj\Debug\AdWords.csproj.GenerateResource.Cache
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\obj\Debug\Google.AdWords.dll
+C:\Documents and Settings\Hyder\MapKeywordSearch\AdWords\obj\Debug\Google.AdWords.pdb

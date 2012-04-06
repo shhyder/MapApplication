@@ -1,0 +1,6 @@
+C:\Documents and Settings\Hyder\MapKeywordSearch\TwitterStreamClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Hyder\MapKeywordSearch\TwitterStreamClient\bin\Debug\TwitterStreamClient.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\TwitterStreamClient\obj\Debug\TwitterStreamClient.pdb
+C:\Documents and Settings\Hyder\MapKeywordSearch\TwitterStreamClient\bin\Debug\TwitterStreamClient.exe.config
+C:\Documents and Settings\Hyder\MapKeywordSearch\TwitterStreamClient\bin\Debug\TwitterStreamClient.exe
+C:\Documents and Settings\Hyder\MapKeywordSearch\TwitterStreamClient\obj\Debug\TwitterStreamClient.exe
